@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form, ul {
+    margin: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-left: 5px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .winner {
+    font-weight: bold;
+    color: red;
+  }
+  

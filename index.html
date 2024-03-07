@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Name Selector</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Who will give Presentation</h1>
+  <form id="nameForm">
+    <label for="nameInput">Enter a name:</label>
+    <input type="text" id="nameInput" required>
+    <button type="button" onclick="addName()">Add Name</button>
+  </form>
+  <ul id="nameList"></ul>
+  <button type="button" onclick="selectWinner()">Select Winner</button>
+  <p id="winner"></p>
+  <script src="es6.js"></script>
+</body>
+</html>
